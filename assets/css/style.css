@@ -1,0 +1,48 @@
+* {margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.sidebar {
+        flex: 1;
+        height:100%;
+        background-color: blue;
+        }
+
+.sidebar ul {font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: aqua;
+    line-height: 20px;
+margin-left: 5px;}
+
+.sidebar header {font-size: 22px;
+color: beige;
+text-align: center;
+background-color: brown;
+line-height: 50px;}
+
+.sidebar img {border: 3px solid white;
+    border-radius: 50%;
+height: 150px;
+display: block ;
+margin: auto;
+margin-bottom: 5px;}
+
+
+.portfolio {    flex: 4;
+    background-color: royalblue;
+    padding: 20px;
+    justify-content: center;
+  }
+
+section img {display: flex;
+justify-content: space-between;
+}
+
+
+
