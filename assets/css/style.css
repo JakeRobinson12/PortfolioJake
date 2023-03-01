@@ -52,9 +52,10 @@ section {
 text-align: center;
 font-size: 21px;}
 
-.sidebar header {padding: 30px;
+.sidebar header {padding: 10px;
   color: #dadbd5;
   background-color: #683339;
+  border-radius: 15px;
 }
 
   .sidebar img {border: 7px solid #0c4153;
