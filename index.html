@@ -5,43 +5,50 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jake Robinson Portfolio</title>
-  <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
-<body>
     <main>
-    <div class="sidebar">
-        <div class="profile"><img src="assets/images/Jake Prof.jpg" alt="jake" >
-        <header><h1>Jake Robinson</h1></header>
-        <ul>
-            <li><a href="www.portfolio.com">Portfolio<a></li>
-            <li><a href="www.portfolio.com">About Me<a></li>
-            <li><a href="www.outlook.com">Contact<a></li>
-        </ul>
-    </div>
-</main>
-
-<section class="cards">
-    <article class="card">
-            <h2 class="cardid">Landing Page</h2>
-             <img class="preview" src="assets/images/landingpage.jpg" alt="landing page" />
-            <div class="card-content"> 
-            </div>
-    </article>
-    <article class="card">
-        <h2 class="cardid">Mountaneering</h2>
-            <img class="preview" src="assets\images\mountain2.jpg" alt="mountianeering" />
-             <div class="card-content">
-            </div>
-    </article>
-    <article class="card">
-        <h2 class="cardid">Climbing</h2>
-        <img class="preview" src="assets/images/mountain3.jpg" alt="mountianeering" />
-         <div class="card-content">
+      <aside>
+        <div class="sidebar">
+          <div class="profile"><img src="assets/images/Jake Prof.jpg" alt="jake" ></div>
+          <header><h1>Jake Robinson</h1></header>
+          <ul>
+              <li><a href="#Portfolio">Portfolio<a></li>
+              <li><a href="#AboutMe">About Me<a></li>
+              <li><a href="#Contact">Contact<a></li>
+          </ul>
         </div>
-</article>
+      </aside>
 
- 
-
-</body>
+      <section class="information">
+        <a id="Portfolio"><h2>Portfolio</h2></a>
+          <section class="card">
+            <article class="header">Landing Page</article>
+            <img src="./assets/images/landingpage2.jpg" alt="landing page" />
+            <article class="description">My first project was to create a contact page</article>
+          </section>
+          <section class="card">
+            <article class="header">Mountaineering</article>
+            <img src="./assets/images/mountain2.jpg" alt="Mountain" />
+            <article class="description">Placeholder</article>
+          </section>
+          <section class="card">
+            <article class="header">My Portfolio</article>
+            <img src="./assets/images/PORTFOLIO.png" alt="Portfolio Page" />
+            <article class="description">How Inception-y</article>
+          </section>
+          <section class="about">
+            <article class="header"><a id="AboutMe"><h2>About Me</h2></a></article>
+            <p>My name is Jake Robinson, ive worked as a sales rep for over 10 years and now have decided to give coding a try</p>
+            <article class="description">Fancy that!</article>
+          </section>
+          <section class="about">
+            <article class="header"><a id="Contact"><h2>Contact Me</h2></a></article>
+            <p><a href="outlook.com">Email</a> <a href="github.com">Github</a> <a href="instagram.com">Instagram</a></p>
+            <article class="description">Serious enquiries only</article>
+          </section>
+    </section>
+    </main>
+    
+    <footer>Made by Jake Robinson 2023</footer>
