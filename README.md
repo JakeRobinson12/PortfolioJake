@@ -1,1 +1,2 @@
-# PortfolioJake
+This project has asked for us to make a portfolio page, i wanted something with a side navigation bar, it proved to be a little trickier
+thank i thought but i think it looks ok now. Ive used the cards with ID properties to shift between the options, i think this will work well although i may update it further down the line
